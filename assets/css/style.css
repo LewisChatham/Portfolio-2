@@ -1,0 +1,43 @@
+:root {
+    --color-primary: #4C40F7;
+    --color-secondary: #FFBDBD;
+    --color-accent: #FFD301;
+    --text-primary: #111029;
+    --text-secondary: #9F9FA9;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: var(--primary-text);
+}
+
+
+
+nav {
+    padding: 5rem 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 7rem;
+}
+
+.logo {
+    margin-right: 8rem;
+}
+
+.social-links a {
+    font-size: 1.6rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    text-decoration: none;
+    margin-right: 6rem;
+}
