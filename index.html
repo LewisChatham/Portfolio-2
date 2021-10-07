@@ -9,17 +9,139 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d628443262.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
-        <div class="navbar">
-            <a href="#" class="logo"><img src="/assets/images/logo.png" alt=""></a>
+        <div class="header-navbar">
+            <a href="#" class="logo"><img src="/assets/images/logo-black.png" alt=""></a>
             <div class="social-links">
-                <a href="" class="github">Github</a>
-                <a href="" class="linkedin">LinkedIn</a>
+                <a href="https://github.com/LewisChatham" class="github"><i class="fab fa-github"></i>Github</a>
+                <a href="https://www.linkedin.com/in/lewis-chatham-260765184/" class="linkedin"><i class="fab fa-linkedin"></i>LinkedIn</a>
+                <a href="/assets/cv/LewisChathamCV.pdf" class="resume" download>Resume<i class="fas fa-download"></i></a>
+            </div>
+            <button class="header-burger" id="header-burger"></button>
+        </div>
+        <div class="header-menu" id="header-menu">
+            <div class="header-preview">
+                <a href="#" class="logo"><img src="/assets/images/logo-white.png" alt=""></a>
+                <div class="header-img">
+                    <img src="/assets/images/bg-header.png" alt="" class="header-pic">
+                </div>
+            </div>
+            <div class="header-center">
+                <div class="header-contacts">
+                    <a href="mailto:lewis.chatham@outlook.com" class="header-line">
+                        <div class="header-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="header-text">Lewis.Chatham@outlook.com</div>
+                    </a>
+                    <div class="header-line">
+                        <div class="header-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="header-text">
+                            <p>Thornhill Road, Streetly</p>
+                            <p>Sutton Coldfield</p>
+                        </div>
+                    </div>
+                    <a class="header-line" href="tel:+447723610963">
+                        <div class="header-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="header-text">+44 7723 610 963</div>
+                    </a>
+                </div>
+                <div class="social-links inner">
+                    <a href="https://github.com/LewisChatham" class="github"><i class="fab fa-github"></i>Github</a>
+                    <a href="https://www.linkedin.com/in/lewis-chatham-260765184/" class="linkedin"><i class="fab fa-linkedin"></i>LinkedIn</a>
+                    <a href="/assets/cv/LewisChathamCV.pdf" class="resume" download>Resume<i class="fas fa-download"></i></a>
+                </div>
             </div>
         </div>
     </nav>
+
+    <main class="center">
+        <div class="main-wrap">
+            <div class="main-content">
+                <div class="name">Lewis Chatham</div>
+                <div class="title">
+                    <span>Hello, my</span>
+                    <span>name's Lewis.</span>
+                    <span>I'm a Web</span>
+                    <span>Developer</span>
+                </div>
+            </div>
+            <div class="main-image">
+                <img src="/assets/images/lewis.jpg" alt="Lewis Chatham">
+            </div>
+        </div>
+    </main>
+    <section class="projects">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,192L60,197.3C120,203,240,213,360,213.3C480,213,600,203,720,197.3C840,192,960,192,1080,197.3C1200,203,1320,213,1380,218.7L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+        <div class="center">
+            <div class="name">Portfolio</div>
+            <div class="title">
+                <span>Look at my</span>
+                <span>Projects.</span>
+            </div>
+            <div class="project-list">
+                <div class="project-item">
+                    <a href="https://v8-car-reviews.herokuapp.com/" class="project-preview" target="_blank">
+                        <img src="/assets/images/SimpleLogin.png" alt="" class="project-pic">
+                        <div class="project-box">
+                            Live
+                            <br>
+                            Demo
+                        </div>
+                    </a>
+                    <div class="project-body">
+                        <h4 class="project-title">Simple Login/Register</h4>
+                        <a href="https://github.com/dan297/V8-car-reviews" class="project-link" target="_blank">GitHub<i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <a href="https://lewischatham.github.io/GeoJobs/" class="project-preview" target="_blank">
+                        <img src="/assets/images/GeoJobs.png" alt="" class="project-pic">
+                        <div class="project-box">
+                            Live
+                            <br>
+                            Demo
+                        </div>
+                    </a>
+                    <div class="project-body">
+                        <h4 class="project-title">GeoJobs</h4>
+                        <a href="https://github.com/LewisChatham/GeoJobs" class="project-link" target="_blank">GitHub<i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <a href="https://lewischatham.github.io/weather-dashboard/" class="project-preview" target="_blank">
+                        <img src="/assets/images/WeatherDashboard.png" alt="" class="project-pic">
+                        <div class="project-box">
+                            Live
+                            <br>
+                            Demo
+                        </div>
+                    </a>
+                    <div class="project-body">
+                        <h4 class="project-title">Weather Dashboard</h4>
+                        <a href="https://github.com/LewisChatham/weather-dashboard" class="project-link" target="_blank">GitHub<i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <a href="https://very-simple-note-taker.herokuapp.com/" class="project-preview" target="_blank">
+                        <img src="/assets/images/NoteTaker.png" alt="" class="project-pic">
+                        <div class="project-box">
+                            Live
+                            <br>
+                            Demo
+                        </div>
+                    </a>
+                    <div class="project-body">
+                        <h4 class="project-title">Note Taker</h4>
+                        <a href="https://github.com/LewisChatham/very-simple-note-taker" class="project-link" target="_blank">GitHub<i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="/assets/js/script.js"></script>
 </body>
 </html>
