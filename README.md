@@ -1,4 +1,7 @@
 # Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+The Project can be found live at: https://lewischatham.github.io/Portfolio-2/
+
 ## Description
 A portfolio of projects for Lewis Chatham (me)
 ## Table of Contents
